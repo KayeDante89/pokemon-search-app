@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pokemon Search</title>
-	<link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Pokemon Search App
+  </title>
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-	<div id="project-body">
-		<div id="search-container">
-			<input type="text" id="pokemon-name" placeholder="Enter pokemon name"/><br>
-		
-				<button onclick="fetchData()" class="fetch-btn">Fetch</button>
-				<button id="clear-search-btn" class="clear-btn" onclick="clearSearch()">
-				Clear</button>	
-	
-		</div>
-		<div id="pokemon-card">
-			<div id="pokemon-detail">
-				<img src="" alt="pokemon sprite" id="pokemon-sprite" style="display: none"/>
-				<div id="pokemon-detail-text">
-					<p id="pokemon-id"></p>
-					<p id="pokemon-title"></p>
-					<p id="pokemon-type"></p>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	
+
+  <div id="project-body">
+    <div id="search-container">
+      <input type="text" id="pokemon-name" placeholder="Enter pokemon name"/><br>
+      <button onclick="fetchData()" class="fetch-btn">
+        Fetch
+      </button>
+      <button id="clear-search-btn" class="clear-btn" onclick="clearSearch()">
+        Clear
+      </button>	
+    </div>
+    <div id="pokemon-card">
+      <div id="pokemon-detail">
+        <img src="" alt="pokemon sprite" id="pokemon-sprite" style="display: none"/>
+        <div id="pokemon-detail-text">
+          <p id="pokemon-id"></p>
+          <p id="pokemon-title"></p>
+          <p id="pokemon-type"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script type="text/javascript" src="scripts.js"></script>
+
 </body>
 </html>
