@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+#search-container {
+	width: 200px;
+	background-color: #f1f1f1;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+#pokemon-name {
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+#pokemon-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#pokemon-sprite {
+	height: 100px;
+	border: 0.2px solid lightgray;
+	border-radius: 8px;
+	background-color: white;
+}
+
+.pokemon-card-style {
+	margin-top: 8px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#pokemon-detail {
+	display: flex;
+	justify-content: space-between;
+}
+
+#pokemon-detail-text {
+	width: 100%;
+	padding-left: 15px;
+	font-size: 13px;
+}
+
+#pokemon-name, button {
+	padding: 8px 10px;
+	border-radius: 5px;
+	border: 0.5px solid lightgray;
+}
+
+button {
+	width: 98px;
+	/* margin-left: 5px; */
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
+}
+
+button:hover {
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5)
+}
